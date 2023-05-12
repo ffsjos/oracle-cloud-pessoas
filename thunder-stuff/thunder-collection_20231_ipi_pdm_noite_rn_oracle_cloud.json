@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "20231_ipi_pdm_noite_rn_oracle_cloud",
+    "dateExported": "2023-05-12T22:51:03.433Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d7faf4fc-830c-44c8-b71b-070142b74c71",
+            "colId": "ed861b95-ce89-4abc-803d-4cd818d1ba88",
+            "containerId": "",
+            "name": "Obter pessoas",
+            "url": "https://g7b6e620787d151-s2204lud7dpmx4b7.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/tb_pessoa/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-12T22:42:06.114Z",
+            "modified": "2023-05-12T22:42:29.367Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "275151dc-af03-4833-9e51-1b93c381ea6f",
+            "colId": "ed861b95-ce89-4abc-803d-4cd818d1ba88",
+            "containerId": "",
+            "name": "Salvar pessoas",
+            "url": "https://g7b6e620787d151-s2204lud7dpmx4b7.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/tb_pessoa/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-05-12T22:43:33.047Z",
+            "modified": "2023-05-12T22:47:51.340Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"{{#name}}\",\n  \"idade\": \"{{#number, 18, 80}}\",\n  \"hobby\": \"{{#string}}\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
